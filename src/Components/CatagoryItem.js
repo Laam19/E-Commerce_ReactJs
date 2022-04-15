@@ -44,9 +44,9 @@ const CatagoryItem = ({item}) => {
         <Image src={item.img}/>
         <Info>
             <Title>{item.title}</Title>
-            <BrowserRouter>
-            <Link to="/productlist"><Button onClick={<ProductList/>}>Shop Now</Button></Link>
-            </BrowserRouter>
+            
+            <Link to="/productlist"><Button >Shop Now</Button></Link>
+            
             
         </Info>
     </Container>

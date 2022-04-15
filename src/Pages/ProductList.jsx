@@ -37,8 +37,6 @@ const Options=styled.option`
 const ProductList = () => {
   return (
     <Container>
-        <Navbar/>
-        <Anounchments/>
         <Title>Dresses</Title>
         <FilterContainer>
             <Filter><FilterText>Filter Products:</FilterText></Filter>

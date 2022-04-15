@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
           <Route path="/cart" component={Cart} />
-          <Route path="/product" component={Product} />
+          <Route path="/products" component={Product} />
           <Route path="/productlist" component={ProductList} />
         </Switch>
       </BrowserRouter>

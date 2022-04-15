@@ -28,12 +28,12 @@ export const Navbar = () => {
             <styled.MenuItem>Register</styled.MenuItem>
           </Link>
           <Link to="/login">
-            <styled.MenuItem onClick={<Login />}>LogIn</styled.MenuItem>
+            <styled.MenuItem >LogIn</styled.MenuItem>
           </Link>
           <styled.MenuItem>
             <Badge badgeContent={4} color="primary">
               <Link to="/cart">
-                <ShoppingCartOutlined onClick={<Cart />} />{" "}
+                <ShoppingCartOutlined  />
               </Link>
             </Badge>
           </styled.MenuItem>

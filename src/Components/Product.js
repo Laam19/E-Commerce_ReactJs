@@ -70,20 +70,20 @@ const Product = ({item}) => {
     <Container>
         <Circle/>
         <Image src={item.img}/>
-        <BrowserRouter>
+        
         <Info>
             <Icon>
-                <Link to="/cart"><ShoppingCartOutlined onClick={<Cart/>} /></Link>
+                <Link to="/cart"><ShoppingCartOutlined /></Link>
             </Icon>
             <Icon>
-            <Link to="/product"><SearchOutlined onClick={<Product/>} /></Link>
+            <Link to="/products"><SearchOutlined  /></Link>
                 
             </Icon>
             <Icon>
                 <FavoriteBorderOutlined/>
             </Icon>
         </Info>
-        </BrowserRouter>
+        
     </Container>
   )
 }
